@@ -40,4 +40,8 @@
 	.App > .row-to-col {
 		height: 600px;
 	}
+
+	.App > footer {
+		height: 640px;
+	}
 }
