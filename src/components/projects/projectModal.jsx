@@ -24,7 +24,7 @@ const _DESCRIPTIONS = {
 			'-Google Maps API',
 			'-React Quill'
 		],
-		live: 'https://www.omninote.herokuapp.com',
+		live: 'https://omninote.herokuapp.com',
 		github: 'https://www.github.com/ommish/omninote',
 		index: 0
 	},
