@@ -1,0 +1,63 @@
+.sidemenu.col-to-row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20%;
+	justify-content: center;
+}
+
+.sidemenu > .col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.profile-pic {
+	border-radius: 20px;
+	width: 150px;
+	height: 150px;
+	margin: 5px 0 5px 0;
+}
+
+.sidemenu header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.sidemenu .links {
+	margin: 10px;
+}
+
+.sidemenu .intro {
+	width: 85%;
+}
+
+@media only screen and (max-width: 1100px) {
+	.sidemenu.col-to-row {
+		width: 100%;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.sidemenu > .col {
+		width: 40%;
+		padding: 10px;
+	}
+
+	.sidemenu .intro {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.sidemenu.col-to-row {
+		flex-direction: column;
+	}
+
+	.sidemenu > .col {
+		width: 100%;
+		padding: 10px 50px;
+	}
+}

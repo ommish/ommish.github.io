@@ -1,0 +1,47 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Crimson Text', serif;
+}
+
+.App > .row-to-col {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	height: 75vh;
+	position: relative;
+}
+
+.App > footer {
+	height: 80vh;
+}
+
+@media only screen and (max-width: 1100px) {
+	html,
+	body, .App{
+		overflow-x: hidden;
+		height: auto;
+	}
+
+	.App > .row-to-col {
+		flex-direction: column;
+		padding: 10px;
+		height: auto;
+		align-items: center;
+	}
+
+	.App > footer {
+		/* height: auto; */
+	}
+}
+
+@media only screen and (max-height: 800px) and (min-width: 1100px){
+
+	.App > .row-to-col {
+		height: 600px;
+	}
+
+	.App > footer {
+		/* height: 640px; */
+	}
+}

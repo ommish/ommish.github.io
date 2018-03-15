@@ -1,0 +1,30 @@
+html, body, main, div, section, header, nav, footer, form, ul, ol, li, p, input, textarea {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Crimson Text', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 400;
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #686e55;
+}
