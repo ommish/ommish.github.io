@@ -45,7 +45,7 @@ const _DESCRIPTIONS = {
 	},
 	'Data Structures': {
 		basics:
-			'These are a collection of visualizations depicting how various data structures can be searched and/or manipulated.',
+			'This is a collection of visualizations depicting how various data structures can be searched and/or manipulated.',
 		features: [
 			'-Array',
 			'-Binary Search Tree',
