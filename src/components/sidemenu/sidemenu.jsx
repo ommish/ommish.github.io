@@ -13,9 +13,9 @@ function Sidemenu(props) {
           <img className="profile-pic" src={ommi} alt="ommi"/>
         </header>
         <ul className="links">
-          <li><h4><i className="far fa-user"></i><a href={resume} target="_blank" rel="noopener noreferrer"> Resume</a></h4></li>
-          <li><h4><i className="fab fa-github"></i><a href="https://www.github.com/ommish" target="_blank" rel="noopener noreferrer"> Github</a></h4></li>
-          <li><h4><i className="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ommish" target="_blank" rel="noopener noreferrer"> LinkedIn</a></h4></li>
+          <li><i className="far fa-user"></i><a href={resume} target="_blank" rel="noopener noreferrer"> Resume</a></li>
+          <li><i className="fab fa-github"></i><a href="https://www.github.com/ommish" target="_blank" rel="noopener noreferrer"> Github</a></li>
+          <li><i className="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/ommish" target="_blank" rel="noopener noreferrer"> LinkedIn</a></li>
         </ul>
       </div>
       <div className="col">
