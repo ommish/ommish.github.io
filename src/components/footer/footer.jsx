@@ -2,6 +2,14 @@ import React from 'react';
 import redux from './redux.png';
 import './footer.css';
 import scrollToComponent from 'react-scroll-to-component';
+import lichen from './lichen.jpg';
+import lichen2 from './lichen2.jpg';
+import twomedicine from './twomedicine.jpg';
+import lakelouise from './lakelouise.jpg';
+import mtellinor from './mtellinor.jpg';
+import plainofsixglaciers from './plainofsixglaciers.jpg';
+import gunsightlake from './gunsightlake.jpg';
+import togunsight from './togunsight.jpg';
 
 class Contact extends React.Component {
 	constructor(props) {
@@ -19,8 +27,10 @@ class Contact extends React.Component {
 	}
 
 	render() {
+		const idx = Math.floor(Math.random() * 8)
+		const bg = [lichen, lichen2, twomedicine, lakelouise, mtellinor, plainofsixglaciers, gunsightlake, togunsight][idx];
 		return (
-			<footer className="footer" >
+			<footer className="footer" style={{backgroundImage: `url(${bg})`}}>
 
 				<div className="chevron" onClick={() => scrollToComponent(this.footerRef, {duration: 800, align: 'top',})}><i className="fas fa-chevron-down"></i></div>
 
