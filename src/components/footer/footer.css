@@ -53,6 +53,8 @@
 
 .skills li {
 	font-size: 1.5em;
+	display: flex;
+	align-items: center;
 }
 
 .skills img, i {
@@ -82,11 +84,13 @@
 }
 
 .contact form input[type='text'], .contact form input[type='email'], .contact input[type='submit'] {
-	height: 30px
+	height: 30px;
 }
 
 .contact input[type='submit'] {
-	background: #d5d8dc;
+	background: black;
+	color: white;
+	border: none;
 }
 
 .contact input[type='submit']:hover {
@@ -107,6 +111,9 @@
 
 @media only screen and (max-width: 750px) {
 
+	.contact {
+		min-width: 100%;
+	}
 	.footer-content {
 		flex-direction: column;
 	}

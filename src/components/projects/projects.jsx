@@ -1,4 +1,5 @@
 import React from 'react';
+import atventure from './atventure.png';
 import allaboard from './allaboard.png';
 import omninote from './omninote.png';
 import trie from './trie.gif';
@@ -35,9 +36,17 @@ class Projects extends React.Component {
 				<div className="projects-heading">
 					<h1>Projects</h1>
 				</div>
-				<div className="project-grid row-to-col">
+				<div className="project-list">
 					<div className="project-item">
-						<h3>Omninote</h3>
+						<h3>[@venture]</h3>
+						<img
+							onClick={this.handleClick('@venture')}
+							src={atventure}
+							alt="@venture"
+						/>
+					</div>
+					<div className="project-item">
+						<h3>[Omninote]</h3>
 						<img
 							onClick={this.handleClick('Omninote')}
 							src={omninote}
@@ -45,7 +54,7 @@ class Projects extends React.Component {
 						/>
 					</div>
 					<div className="project-item">
-						<h3>Dungeon Hop</h3>
+						<h3>[Dungeon Hop]</h3>
 						<img
 							onClick={this.handleClick('Dungeon Hop')}
 							src={dungeonhop}
@@ -53,7 +62,7 @@ class Projects extends React.Component {
 						/>
 					</div>
 					<div className="project-item">
-						<h3>Data Structures</h3>
+						<h3>[Data Structures]</h3>
 						<img
 							onClick={this.handleClick('Data Structures')}
 							src={trie}
@@ -61,7 +70,7 @@ class Projects extends React.Component {
 						/>
 					</div>
 					<div className="project-item">
-						<h3>All Aboard</h3>
+						<h3>[All Aboard]</h3>
 						<img
 							onClick={this.handleClick('All Aboard')}
 							src={allaboard}

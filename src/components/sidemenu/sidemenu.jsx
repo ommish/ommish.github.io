@@ -19,10 +19,10 @@ function Sidemenu(props) {
         </ul>
       </div>
       <div className="col">
-        <p className="intro">Hi! I'm a software engineer based in New York City.
-        I have experience with Ruby on Rails, Express, and React/Redux and am
-        always eager to learn more about new technologies.
-        In my free time I also enjoy hiking, rock climbing, and board games.</p>
+        <p className="intro">
+          Hi! I'm a software engineer based in NYC. Most of my experience has been with NodeJS, React/Redux, and SQL.
+          Aside from coding, I enjoy spending time outdoors on hikes, camping, and playing (ultra-casual, non-competitive) sports, but the homebody in me is also happy not leaving home for days at a time.
+          My indoor hobbies include making comically large amounts of food and playing DnD and board games.</p>
       </div>
     </section>
   )

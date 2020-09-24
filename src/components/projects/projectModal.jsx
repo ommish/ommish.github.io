@@ -1,9 +1,29 @@
 import React from 'react';
 import './projectModal.css';
 
-const _ORDER = ['Omninote', 'Dungeon Hop', 'Data Structures', 'All Aboard'];
+const _ORDER = ['@venture', 'Omninote', 'Dungeon Hop', 'Data Structures', 'All Aboard'];
 const _DESCRIPTIONS = {
 	'': { basics: '', features: [], tools: [], github: '', live: '' },
+	'@venture': {
+		basics:
+			'@venture is a web application for DnD players and DMs to manage their campaign notes together.',
+		features: [
+			'-Reference notes from other notes and sessions',
+			'-Customize campaigns with categories and colors',
+			'-Hide DM-only content from players',
+			'-Secure content with campaign-level roles',
+		],
+		tools: [
+			'-Express',
+			'-React',
+			'-Redux',
+			'-Google Cloud Storage',
+			'-Postgres',
+		],
+		live: 'https://www.atventure.io',
+		github: null,
+		index: 0
+	},
 	Omninote: {
 		basics:
 			'Omninote is a single-page application inspired by Evernote for organizing notes under notebooks, tags, and locations.',
@@ -26,7 +46,7 @@ const _DESCRIPTIONS = {
 		],
 		live: 'https://omninote.herokuapp.com',
 		github: 'https://www.github.com/ommish/omninote',
-		index: 0
+		index: 1
 	},
 	'Dungeon Hop': {
 		basics:
@@ -41,7 +61,7 @@ const _DESCRIPTIONS = {
 		tools: ['-Javascript', '-HTML5 Canvas', '-Google Firebase'],
 		live: 'http://www.ommish.com/dungeon-hop',
 		github: 'https://www.github.com/ommish/dungeon-hop',
-		index: 1
+		index: 2
 	},
 	'Data Structures': {
 		basics:
@@ -57,7 +77,7 @@ const _DESCRIPTIONS = {
 		tools: ['-Javascript', '-React', '-CSS3', '-GIPHY API'],
 		live: 'http://www.ommish.com/data-structures-and-search',
 		github: 'https://www.github.com/ommish/data-structures-and-search',
-		index: 2
+		index: 3
 	},
 	'All Aboard': {
 		basics:
@@ -78,7 +98,7 @@ const _DESCRIPTIONS = {
 		],
 		live: 'https://all-aboard123.herokuapp.com',
 		github: 'https://www.github.com/ommish/all-aboard',
-		index: 3
+		index: 4
 	}
 };
 
@@ -124,7 +144,7 @@ class ProjectModal extends React.Component {
             </div>
             <div className="links">
               <h3><a href={project.live} target="_blank" rel="noopener noreferrer"><i className="fas fa-globe"></i> Visit</a></h3>
-              <h3><a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fas fa-code"></i> Code</a></h3>
+              {project.github && <h3><a href={project.github} target="_blank" rel="noopener noreferrer"><i className="fas fa-code"></i> Code</a></h3>}
             </div>
           </div>
   			</div>

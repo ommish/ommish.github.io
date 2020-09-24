@@ -2,7 +2,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 20%;
+	width: 33%;
 	justify-content: center;
 }
 
@@ -32,6 +32,8 @@
 
 .sidemenu .intro {
 	width: 85%;
+	white-space: pre-wrap;
+	text-align: center;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -48,6 +50,7 @@
 
 	.sidemenu .intro {
 		width: 100%;
+		white-space: pre-wrap;
 	}
 }
 

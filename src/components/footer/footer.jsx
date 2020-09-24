@@ -59,7 +59,7 @@ class Contact extends React.Component {
                   <img src={redux} alt="redux" className="devicon-redux" />Redux
                 </li>
                 <li>
-                  <i className="devicon-rails-plain" />Ruby on Rails
+                  <i className="devicon-typescript-plain" />Typescript
                 </li>
               </ul>
               <ul>
@@ -73,7 +73,7 @@ class Contact extends React.Component {
                   <i className="devicon-css3-plain" />CSS3
                 </li>
                 <li>
-                  <i className="devicon-html5-plain" />HTML5
+                  <i className="devicon-express-original colored" />Express
                 </li>
                 <li>
                   <i className="devicon-git-plain" />Git
