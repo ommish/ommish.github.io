@@ -21,7 +21,7 @@ function Sidemenu(props) {
       <div className="col">
         <p className="intro">
           Hi! I'm a software engineer based in NYC. Most of my experience has been with NodeJS, React/Redux, and SQL.
-          Aside from coding, I enjoy spending time outdoors on hikes, camping, and playing (ultra-casual, non-competitive) sports, but the homebody in me is also happy not leaving home for days at a time.
+          Aside from coding, I enjoy spending time outdoors on hikes, camping, and playing (ultra-casual, non-competitive) sports.
           My indoor hobbies include making comically large amounts of food and playing DnD and board games.</p>
       </div>
     </section>
