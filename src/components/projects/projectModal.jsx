@@ -108,8 +108,8 @@ class ProjectModal extends React.Component {
 	handleNextClick(dir) {
 		return (e) => {
 			let nextProjectIdx = _DESCRIPTIONS[this.props.openProject.name].index + dir;
-			if (nextProjectIdx > 3) nextProjectIdx = 0;
-			if (nextProjectIdx < 0) nextProjectIdx = 3
+			if (nextProjectIdx > _ORDER.length - 1) nextProjectIdx = 0;
+			if (nextProjectIdx < 0) nextProjectIdx = _ORDER.length - 1
 			this.props.handleClick(_ORDER[nextProjectIdx])();
 		}
 	}
