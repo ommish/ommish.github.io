@@ -1,70 +1,71 @@
 .projects {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	position: relative;
-	height: 100%;
-	overflow-y: auto;
-}
-
-.projects-heading {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 5%;
-	width: 100%;
+  width: 100%;
+  padding: 32px;
 }
 
 .project-list {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-row-gap: 4rem;
 }
 
-.project-item {
-	margin: 32px 0;
-	width: 100%;
-	max-width: 1000px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.project-preview > img {
+  max-width: 97%;
+  max-height: 97%;
+  min-width: 120px;
+  transition: all 0.7s ease;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-.project-item > h3 {
-	height: 10%;
+.project-preview > img:hover {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.7s ease;
 }
 
-.project-item > img {
-	max-width: 97%;
-	max-height: 97%;
-	min-width: 120px;
-	transition: all 0.7s ease;
+.project-details {
+  margin-right: 16px;
+}
+.project-details .name {
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-.project-item > img:hover {
-	cursor: pointer;
-	max-width: 100%;
-	max-height: 100%;
-	transition: all 0.7s ease;
+.project-details .links {
+  margin: 8px 0;
+}
+.project-details .links a {
+  margin-right: 8px;
 }
 
-@media only screen and (max-width: 1100px) {S
-	.project-item, .projects, .project-grid {
-		width: 100%;
-	}
+.project-details .basics,
+.project-details .tools {
+  color: #a0a0a6;
+  margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 700px) {
-	.project-grid.row-to-col {
-		flex-direction: column;
-		align-items: center;
-	}
-	.projects-heading {
-		margin-top: 10px;
-	}
-	.project-item, .projects, .project-grid {
-		width: 100%;
-	}
+.project-details .tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.project-details .tools span {
+  margin: 0 8px 8px 0;
+  color: #2ca58d;
+  border: 1px solid #2ca58d;
+  border-radius: 12px;
+  padding: 0 12px;
+  font-size: small;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-list {
+    display: block;
+  }
+  .project-preview {
+    margin-bottom: 4rem;
+  }
 }
