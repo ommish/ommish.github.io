@@ -25,8 +25,7 @@ export const IMAGES_BY_PROJECT = {
 
 export const DESCRIPTIONS_BY_PROJECT = {
   "@venture": {
-    basics:
-      "A web application for D&D players and DMs to manage their campaign notes together.",
+    basics: "For D&D players and DMs to manage their campaign notes together.",
     tools: [
       "Typescript",
       "NodeJS+Express",
@@ -34,26 +33,31 @@ export const DESCRIPTIONS_BY_PROJECT = {
       "Google Cloud Storage",
       "Postgres",
     ],
+    features:
+      "Features full-text search through notes and sessions, role-based access control, special DM capabilities, ability to reference notes from other notes and sessions, and a world-map location tracker.",
     live: "https://www.atventure.io",
     github: null,
   },
   "Board Games": {
-    basics:
-      "Web implementations of board games that my family enjoys playing together.",
+    basics: "Board games that my family enjoys playing together.",
     tools: [
       "Typescript",
       "NodeJS+Express",
       "WebSocket",
       "React+Redux",
+      "i18next",
       "TailwindCSS",
     ],
+    features:
+      "Implements popular multi-player board games as online games using WebSockets. Playable in English and Japanese.",
     live: "https://ommigames.herokuapp.com",
     github: "https://github.com/ommish/games",
   },
   "Character Sheets": {
-    basics:
-      "Adds helpful little things on top of the traditional D&D character sheet format like tooltips, a status effect section, remaining uses, and fun custom backgrounds for each character.",
+    basics: "My personal take on the official D&D character sheet.",
     tools: ["Typescript", "React"],
+    features:
+      "Features include a status effect tracker, a remaining uses tracker, additional notes for many specs that are added as tooltips to keep the display clutter-free, calculation of ability score modifiers, saves, and skills, and template generation to easily add a skeleton for new characters.",
     live: null,
     github: null,
   },

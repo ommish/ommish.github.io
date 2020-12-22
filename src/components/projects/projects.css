@@ -41,9 +41,12 @@
   margin-right: 8px;
 }
 
-.project-details .basics,
-.project-details .tools {
+.project-details .basics {
   color: #a0a0a6;
+  margin-bottom: 12px;
+}
+
+.project-details .features {
   margin-bottom: 12px;
 }
 
@@ -51,6 +54,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .project-details .tools span {
   margin: 0 8px 8px 0;

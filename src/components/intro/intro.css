@@ -11,13 +11,13 @@
   align-items: center;
   text-align: center;
   padding: 32px;
-  background: #2ca58d;
+  background: #6bc0af;
   width: 100%;
   color: white;
 }
 .intro header h1 {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 .intro header h2 {
   font-size: 2rem;

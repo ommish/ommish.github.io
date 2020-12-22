@@ -20,6 +20,7 @@ function Project({ name }) {
           )}
         </div>
         <div className="basics">{project.basics}</div>
+        {project.features && <div className="features">{project.features}</div>}
         <div className="tools">
           {project.tools.map((tool, i) => (
             <span key={i}>{tool}</span>
