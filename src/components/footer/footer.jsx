@@ -14,7 +14,6 @@ import togunsight from "./togunsight.jpg";
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.footerRef = null;
     this.state = {
       name: "",
       email: "",
@@ -39,73 +38,8 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <footer className="footer" style={{ backgroundImage: `url(${this.bg})` }}>
-        <div
-          className="chevron"
-          onClick={() =>
-            scrollToComponent(this.footerRef, { duration: 800, align: "top" })
-          }
-        >
-          <i className="fas fa-chevron-down" />
-        </div>
-
-        <div
-          className="footer-content"
-          ref={(footerContent) => {
-            this.footerRef = footerContent;
-          }}
-        >
-          <div className="skills">
-            <h2>Skills</h2>
-
-            <div>
-              <ul>
-                <li>
-                  <i className="devicon-typescript-plain" />
-                  Typescript
-                </li>
-                <li>
-                  <i className="devicon-javascript-plain" />
-                  Javascript
-                </li>
-                <li>
-                  <i className="devicon-nodejs-plain" />
-                  Node
-                </li>
-                <li>
-                  <i className="devicon-react-original" />
-                  React
-                </li>
-                <li>
-                  <img src={redux} alt="redux" className="devicon-redux" />
-                  Redux
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <i className="devicon-postgresql-plain" />
-                  SQL
-                </li>
-                <li>
-                  <i className="devicon-jquery-plain" />
-                  jQuery
-                </li>
-                <li>
-                  <i className="devicon-css3-plain" />
-                  CSS3
-                </li>
-                <li>
-                  <i className="devicon-express-original colored" />
-                  Express
-                </li>
-                <li>
-                  <i className="devicon-git-plain" />
-                  Git
-                </li>
-              </ul>
-            </div>
-          </div>
-
+      <footer className="footer">
+        <div className="content" style={{ backgroundImage: `url(${this.bg})` }}>
           <form
             className="contact"
             method="post"
