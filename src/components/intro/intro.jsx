@@ -1,6 +1,5 @@
 import React from "react";
 import ommi from "./ommi.jpg";
-import resume from "./Ommi_Shimizu_Resume.pdf";
 import "./intro.css";
 
 function Intro() {
@@ -21,11 +20,6 @@ function Intro() {
             large amounts of food and playing D&D and board games.
           </p>
           <ul className="links">
-            <li>
-              <a href={resume} target="_blank" rel="noopener noreferrer">
-                <i className="far fa-user"></i> Resume
-              </a>
-            </li>
             <li>
               <a
                 href="https://www.github.com/ommish"
