@@ -35,7 +35,7 @@ export const DESCRIPTIONS_BY_PROJECT = {
     ],
     features:
       "Features full-text search through notes and sessions, role-based access control, special DM capabilities, ability to reference notes from other notes and sessions, and a world-map location tracker.",
-    live: "https://www.atventure.io",
+    live: "https://atventure.ommish.com",
     github: null,
   },
   "Board Games": {
