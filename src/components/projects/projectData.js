@@ -50,7 +50,7 @@ export const DESCRIPTIONS_BY_PROJECT = {
     ],
     features:
       "Implements popular multi-player board games as online games using WebSockets. Playable in English and Japanese.",
-    live: "https://ommigames.herokuapp.com",
+    live: "https://games.ommish.com",
     github: "https://github.com/ommish/games",
   },
   "Character Sheets": {
