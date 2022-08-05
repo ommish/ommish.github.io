@@ -50,7 +50,7 @@ export const DESCRIPTIONS_BY_PROJECT = {
     ],
     features:
       "Implements popular multi-player board games as online games using WebSockets. Playable in English and Japanese.",
-    live: "http://games.ommish.com",
+    live: "https://games.ommish.com",
     github: "https://github.com/ommish/games",
   },
   "Character Sheets": {
@@ -78,14 +78,14 @@ export const DESCRIPTIONS_BY_PROJECT = {
     basics:
       "A side scrolling browser game inspired by a minigame in Kirby 64: The Crystal Shards.",
     tools: ["Javascript", "HTML5 Canvas", "Google Firebase"],
-    live: "http://www.ommish.com/dungeon-hop",
+    live: "https://www.ommish.com/dungeon-hop",
     github: "https://www.github.com/ommish/dungeon-hop",
   },
   "Data Structures": {
     basics:
       "A collection of visualizations depicting how various data structures can be searched and/or manipulated.",
     tools: ["Javascript", "React", "GIPHY API"],
-    live: "http://www.ommish.com/data-structures-and-search",
+    live: "https://www.ommish.com/data-structures-and-search",
     github: "https://www.github.com/ommish/data-structures-and-search",
   },
 };

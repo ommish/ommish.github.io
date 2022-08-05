@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ommish.github.io/ommish.github.io",
+  "homepage": "https://ommish.github.io/ommish.github.io",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",

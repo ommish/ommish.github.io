@@ -1,1 +1,1 @@
-[Portfolio Page](http://www.ommish.com)
+[Portfolio Page](https://www.ommish.com)

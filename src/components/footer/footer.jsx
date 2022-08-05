@@ -45,7 +45,7 @@ class Contact extends React.Component {
             method="post"
             action="https://formspree.io/oshimizu15@gmail.com"
           >
-            <input type="hidden" name="_next" value="http://ommish.com" />
+            <input type="hidden" name="_next" value="https://ommish.com" />
             <h2>Contact Me</h2>
             <input
               value={this.state["name"]}
